@@ -179,7 +179,7 @@ p {
     background-image: url(../img/a.png)
 }
 .cb-slideshow li:nth-child(2) { 
-    background-image: url(../a1.png);
+    background-image: url(../img/a1.png);
     -webkit-animation-delay: 12s;
     -moz-animation-delay: 12s;
     -o-animation-delay: 12s;
@@ -196,28 +196,17 @@ p {
 }
 .cb-slideshow li:nth-child(4) { 
     background-image: url(../img/a3.png);
-    -webkit-animation-delay: 36s;
-    -moz-animation-delay: 36s;
-    -o-animation-delay: 36s;
-    -ms-animation-delay: 36s;
     animation-delay: 36s; 
 }
 .cb-slideshow li:nth-child(5) { 
     background-image: url(../img/a4.png);
-    -webkit-animation-delay: 48s;
-    -moz-animation-delay: 48s;
-    -o-animation-delay: 48s;
-    -ms-animation-delay: 48s;
     animation-delay: 48s; 
 }
 .cb-slideshow li:nth-child(6) { 
     background-image: url(../img/a5.png);
-    -webkit-animation-delay: 60s;
-    -moz-animation-delay: 60s;
-    -o-animation-delay: 60s;
-    -ms-animation-delay: 60s;
     animation-delay: 60s; 
 }
+
 
 
 @keyframes imageAnimation { 
