@@ -196,10 +196,18 @@ p {
 }
 .cb-slideshow li:nth-child(4) { 
     background-image: url(../img/a3.png);
+    -webkit-animation-delay: 36s;
+    -moz-animation-delay: 36s;
+    -o-animation-delay: 36s;
+    -ms-animation-delay: 36s;
     animation-delay: 36s; 
 }
 .cb-slideshow li:nth-child(5) { 
     background-image: url(../img/a4.png);
+    -webkit-animation-delay: 48s;
+    -moz-animation-delay: 48s;
+    -o-animation-delay: 48s;
+    -ms-animation-delay: 48s;
     animation-delay: 48s; 
 }
 .cb-slideshow li:nth-child(6) { 
