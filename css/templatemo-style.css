@@ -216,7 +216,7 @@ p {
 
 
 .cb-slideshow li:nth-child(1) { 
-    background-image: url(../img/a.jpg)
+    background-image: url(../img/)
 }
 .cb-slideshow li:nth-child(2) { 
     background-image: url(../img/a.png);
@@ -227,7 +227,7 @@ p {
     animation-delay: 12s; 
 }
 .cb-slideshow li:nth-child(3) { 
-    background-image: url(../img/a2.png);
+    background-image: url(../img/a1.png);
     -webkit-animation-delay: 24s;
     -moz-animation-delay: 24s;
     -o-animation-delay: 24s;
