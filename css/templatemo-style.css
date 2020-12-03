@@ -103,6 +103,7 @@ p {
 @media (max-width: 767px) {
   .fullscreen-bg {
     background: url('../img/ko8e24.mp4') center center / cover no-repeat;
+	background: url('../img/Longboarding.mp4') center center / cover no-repeat;
   }
 
   .fullscreen-bg__video {
