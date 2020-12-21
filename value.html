@@ -24,6 +24,45 @@
 <link rel="stylesheet" href="css/templatemo-style.css">
 
 <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+	
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script>
+ $(document).ready(function() {
+ 
+    $('.faq_question').click(function() {
+ 
+        if ($(this).parent().is('.open')){
+            $(this).closest('.faq').find('.faq_answer_container').animate({'height':'0'},500);
+            $(this).closest('.faq').removeClass('open');
+ 
+            }else{
+                var newHeight =$(this).closest('.faq').find('.faq_answer').height() +'px';
+                $(this).closest('.faq').find('.faq_answer_container').animate({'height':newHeight},500);
+                $(this).closest('.faq').addClass('open');
+            }
+ 
+    });
+ 
+});
+</script>
+<style>
+/*FAQS*/
+.faq_question {
+    margin: 0px;
+    padding: 0px 0px 5px 0px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+}
+ 
+.faq_answer_container {
+    height: 0px;
+    overflow: hidden;
+    padding: 0px;
+}
+
+</style>
       
   </head>
 	<body>
@@ -51,6 +90,30 @@
 						<P class="mb-5">Peace of mind fixed-price contracts carried out on-time & on-budget.</P>
 					</div>
 				</div>
+				
+				<div class="faq">
+            				<div class="faq_question open">What’s the average cost of the project?</div>
+           				<div class="faq_answer_container" style="display: block;">
+                				<div class="faq_answer">~ The final price is directly related to the project scope, timeline, & deliverables. Scope of the project can’t be determined without a discovery process, so the first stage will commence with a Strategy Brief.
+						<br>After the Strategy Brief, which will simply & concisely detail the project’s creative & communicative objectives as understood, I’ll be able to propose a final price, deadline & authorization to proceed.
+						<br>For now I can only give you a ball-park range, the clients I partner with typically come to me with more than $1,000 & less than $10,000 in their budget.~</div>
+            				</div>
+        			</div>
+
+        			<div class="faq">
+            				<div class="faq_question">How long will take you to revamp our website?</div>
+            				<div class="faq_answer_container">
+               	 				<div class="faq_answer">~ It depends on the project scope. But from previous experience, designing & developing new landing page can take up to 2 weeks, while some bigger websites 6-12 pages, can take up to 4-6 weeks.~</div>
+            				</div>
+        			</div>
+
+        			<div class="faq">
+            				<div class="faq_question">Where are you based?</div>
+            				<div class="faq_answer_container">
+                				<div class="faq_answer">~ I live in LA but you don’t have to worry about time zones. I contact clients from all over the world, from Dubai to San Diego to Toronto.~</div>
+            				</div>
+        			</div>
+				
 				<div class="row">
 					<div class="col-lg-12 text-center">
 						<P class="mb-5">~FAQ~<br>
