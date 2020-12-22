@@ -37,15 +37,35 @@
 		justify-content: center;
 		align-items: center;
 	}
+	
+	.loader.hidden {
+		animation: fadeOut 1s;
+		animation-fill-mode: forwards;
+	}
+	
+	@keyframes fadeOut {
+		100% {
+			opacity: 0;
+			visibility: hidden;
+		}
+	}
 
 </style>
 
 	
   </head>
 	<body>
-		<div class="loader">
+		<div class="loader hidden">
 			<img src="img/sportsLoading.gif" class="img-responsive" alt="Loading...">
 		</div>
+		<script type="text/javascript">
+			window.addEventListener("load", function() {
+				const loader = document.querySelector(".loader");
+				loader.className += " hidden";
+			});
+			
+		</script>
+		
 		<div id="particles-js"></div>
 		<ul class="cb-slideshow"> 
 			<li></li>
