@@ -11,6 +11,7 @@
   gtag('config', 'G-JPG2DHZPD6');
 </script>
 <script>
+$(function(){
 jQuery('.faq-q').click(function(){
 	if (jQuery(this).siblings().find('.faq-a').is(':visible')) {
 		jQuery(this).removeClass('faq-q-open');
@@ -21,6 +22,7 @@ jQuery('.faq-q').click(function(){
 		jQuery(this).siblings().find('.faq-a').addClass('faq-a-open').slideDown();
 	}
 })
+});
 </script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
