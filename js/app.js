@@ -22,7 +22,7 @@ jQuery('.faq-q').click(function(){
 					jQuery(this).siblings().find('.faq-a').addClass('faq-a-open').slideDown();
 				}
 				})
-});
+
 
 particlesJS('particles-js',
   
@@ -144,3 +144,4 @@ particlesJS('particles-js',
   }
 
 );
+});
