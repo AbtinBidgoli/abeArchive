@@ -11,6 +11,7 @@ particlesJS.load('particles-js', 'particles.json', function() {
 
 /* Otherwise just put the config content (json): */
 
+jQuery(document).ready(function(){
 jQuery('.faq-q').click(function(){
 				if (jQuery(this).siblings().find('.faq-a').is(':visible')) {
 					jQuery(this).removeClass('faq-q-open');
@@ -21,6 +22,7 @@ jQuery('.faq-q').click(function(){
 					jQuery(this).siblings().find('.faq-a').addClass('faq-a-open').slideDown();
 				}
 				})
+});
 
 particlesJS('particles-js',
   
