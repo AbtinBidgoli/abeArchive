@@ -80,13 +80,7 @@
 		<div class="loader hidden">
 			<img src="img/sportsLoading.gif" alt="Loading...">
 		</div>
-		<script type="text/javascript">
-			window.addEventListener("load", function() {
-				const loader = document.querySelector(".loader");
-				loader.className += " hidden";
-			});
-			
-		</script>
+		
 		
 		<div id="particles-js"></div>
 		<ul class="cb-slideshow"> 
@@ -124,11 +118,18 @@
 	  <!-- Placed at the end of the document so the pages load faster -->
 	<script type="text/javascript" src="js/particles.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript">
+			window.addEventListener("load", function() {
+				const loader = document.querySelector(".loader");
+				loader.className += " hidden";
+			});
+			
+	</script>
 	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 	<script>
-  var typed = new Typed('#typed', {
-    stringsElement: '#typed-strings'
-  });
-</script>
+  		var typed = new Typed('#typed', {
+    		stringsElement: '#typed-strings'
+  		});
+	</script>
 	
 </html>
